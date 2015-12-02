@@ -51,13 +51,13 @@ class AbstractPhpVersion < Formula
   end
 
   module Php70Defs
-    PHP_SRC_TARBALL = 'https://downloads.php.net/~ab/php-7.0.0RC8.tar.bz2'
+    PHP_SRC_TARBALL = 'https://github.com/php/php-src/archive/php-7.0.0.tar.gz'
     PHP_GITHUB_URL  = 'https://github.com/php/php-src.git'
-    PHP_VERSION     = '7.0.0-rc.8'
+    PHP_VERSION     = '7.0.0'
     PHP_BRANCH      = 'PHP-7.0.0'
 
     PHP_CHECKSUM    = {
-                        :sha256 => '8c46621e80b610749d2d31439e9b6db7b881c0249d1df1f4c3e05fdd46a2d108',
+                        :sha256 => 'f0233661060b53dbd6ca7898b1ddc64e99fe5db1bbf6a15a71dc7d0238aa0fbc',
                       }
   end
 end
